@@ -6,7 +6,7 @@ public class CountSpaces {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter your favorite quote ");
 		String quote="Success is how high you bounce once you hit bottom";
-		quote = input.nextLine();:
+		quote = input.nextLine();;
 		int count=0;
 		char character;
 		for(int i=0; i < quote.length(); ++i){
